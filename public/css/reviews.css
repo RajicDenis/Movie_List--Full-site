@@ -1,0 +1,136 @@
+<style>
+.movie-review, .tvshow-review {
+    display: flex;
+    flex-direction: column; 
+    min-height: 800px;
+}
+.review {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 140px;
+	width: 100%;
+	margin-bottom: 15px;
+	background-size: cover;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 5px 5px 8px rgba(8,8,8,0.5);
+}
+.review:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: rgba(8,8,8,0.6);
+	top: 0;
+	border-radius: 5px;
+}
+.desc {
+	position: relative;
+	height: 80%;
+	border-bottom: 1px solid white;
+	color: white;
+	padding: 15px;
+	z-index: 5;
+}
+.desc-box {
+	position: absolute;
+	bottom: 15px;
+}
+.review-title {
+	font-size: 15px; 
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+.recap {
+	font-size: 12px;
+	opacity: 0.8;
+}
+.tv-review {
+	height: 140px;
+	width: 100%;
+	background: red;
+	margin-bottom: 15px;
+}
+.rating {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-size: 12px;
+	z-index: 5;
+}
+.user-rating {
+	width: 50%;
+	height: 100%;
+}
+.user-rating-text {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+.reviewd-by {
+	width: 50%;
+	height: 100%;
+	right: 10px;
+}
+.reviewed-by-text {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+
+/* Review Stats*/
+.rev-stats {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 50px 15px 0 15px;
+	width: 30%;
+}
+.switch-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 200px;
+	padding: 0 10px;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 25px;
+	color: black;
+	border-radius: 5px;
+	flex-shrink: 0;
+}
+.switch-btn:visited, .switch-btn:hover {
+	color: black;
+}
+.switch-btn:hover {
+	opacity: 0.7;
+}
+.stat-box {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	height: 180px;
+	width: 80%;
+	flex-shrink: 0;
+	background: #1F2631;
+	box-shadow: inset 0 0 5px rgba(8,8,8,0.7);
+	border-radius: 5px;
+	margin-top: 40px;
+	font-family: 'Amaranth', sans-serif;
+	color: #abc;
+}
+.stat-title {
+	font-size: 17px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #abc;
+}
+.stat-info {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 10px;
+}
+</style>

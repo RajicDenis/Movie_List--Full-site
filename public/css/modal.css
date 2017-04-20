@@ -1,0 +1,52 @@
+/* Modal */
+	#addMovieModal {
+		left: 350px;
+		
+	}
+	.modal-content {
+		width: 600px;
+		top: 300px;
+		background: #1F2631;
+	}
+	.modal-title {
+		font-family: 'Amaranth', sans-serif;
+		font-size: 17px;
+		text-align: left;
+	}
+	.modal-header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		color: #abc;
+	}
+	.modal-header::after, .modal-header::before {
+		display: none;
+	}
+	.glyphicon-off {
+		border: 0;
+		margin: 0;
+		padding: 0;
+		background: transparent;
+	}
+	.add {
+		font-family: 'Amaranth', sans-serif;
+		font-weight: 600;
+		font-size: 16px;
+		width: 100px;
+		margin-top: 10px;
+	}
+	.add:hover {
+		opacity: 0.8;	
+	}
+	.add-box {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-top: 1px solid white;
+		margin-top: 20px;
+	}
+	.modal-footer {
+		text-align: center;
+	}

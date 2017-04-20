@@ -1,0 +1,116 @@
+.rev-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	margin-top: 100px;
+}
+.rev-left {		
+	height: 100%;
+}
+.content-poster {
+	width: 200px;
+	height: 300px;
+}
+.rev-right {
+	width: 100%;
+	height: 100%;
+	margin-left: 30px;
+}
+.rev-by {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #abc;
+	font-size: 14px;
+	border-bottom: 1px solid #abc;
+	padding-bottom: 5px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+}
+.rev-title-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	color: #abc;
+}
+.total-likes {
+	width: 130px;
+	margin-top: 10px;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 17px;
+}
+.rev-title {
+	width: calc(100% - 260px);
+	font-size: 27px;
+	text-align: center;
+	font-family: 'Amaranth', sans-serif;
+}
+.rev-like {
+	width: 50px;
+}
+.glyphicon-heart, .glyphicon-heart-empty {
+	font-size: 35px;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.glyphicon-heart-empty:hover {
+	color: #FF003F;
+}
+.rev-profile {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-size: cover;
+	margin-right: 20px;		
+}
+.rev-by-txt {
+	font-size: 15px;
+}
+.rev-by-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.rev-text {
+	width: 100%;
+	color: #abc;
+	font-family: 'Signika Negative', sans-serif;
+	text-align: justify;
+	font-size: 18px;
+}
+.rev-stars {
+	width: 100%;
+	margin: 20px 0 20px 0;
+	text-align: center;
+	pointer-events: none;
+}
+.g,.glyphicon-star, .glyphicon-star-empty {
+	font-size: 35px;
+}
+.roh {
+    font-size: 17px;
+    margin-right: 7px;
+    pointer-events: none;
+}

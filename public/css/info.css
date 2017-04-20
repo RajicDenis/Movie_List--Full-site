@@ -1,0 +1,40 @@
+.li {
+	color: #1f2631;
+	list-style-type: circle;
+	padding-bottom: 5px;
+	color: #abc;	
+}	
+h3 {
+	color: #FF003F;
+}
+.infobox {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding-top: 50px;
+	color: #abc;
+}
+.image-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	width: 120px;
+	height: 140px;
+	margin-right: 20px;
+}
+.admin-img {
+	width: 120px;
+	height: 120px;
+	margin: auto;
+}
+.rules-box {
+	width: 80%;
+}

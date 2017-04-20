@@ -1,0 +1,137 @@
+.top {
+	margin-top: 70px;
+}
+.tb {
+	padding-bottom: 0;
+}
+.tab-title {
+	background: #1F2631;
+	color: #FFFFFF;
+}
+.nav-tabs {
+	border-bottom: 1px solid #1F2631;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	background: #FFFFFF;
+	color: #1F2631;
+}
+ul.nav > li > a:hover {
+	background: #1F2631;
+	color: #FFFFFF;
+}
+.table-name {
+	text-align: center;
+	color: #abc;
+}
+h3 {
+	font-weight: 600;
+}	
+.table {
+	color: #abc;
+	font-size: 13px;
+}
+th {
+	color: #FF003F;
+}
+#frm3 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.gi {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.gnr-input {
+	width: 250px;
+}
+.p {
+	width: 150px;
+}
+.w40 {
+	width: 40px;
+}
+
+/* Genres */
+.genres-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 100%; 
+	margin-top: 50px;
+}
+.genres-title {
+	width: 150px;
+	font-weight: 600;
+	color: #abc;
+}
+.genres-name {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	width: 600px;
+}
+.gnr {
+	display: block;
+	background: #EF3051; 
+	color: white;
+	border-radius: 3px;
+	padding: 5px 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.r {
+	font-size: 14px;
+	margin-left: 5px;
+	color: white;
+}
+.select2-results__option, .select2-selection__choice {
+	color: black !important;
+}
+.center {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	width: 100%;
+}
+.close {
+	margin-left: 10px;
+}
+
+}

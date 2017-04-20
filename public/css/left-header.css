@@ -1,0 +1,25 @@
+/* Custom left header*/
+.main-body {
+	width: calc(100% - 60px);
+	left: 60px;
+}
+.left-header {
+	width: 60px;
+	justify-content: center;
+}
+.profile-img {
+	display: none;
+}
+.list-menu {
+	display: none;
+}
+.logo {
+	display: none;
+}
+.login-list-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
